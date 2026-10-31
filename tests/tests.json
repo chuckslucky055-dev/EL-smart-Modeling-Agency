@@ -1,0 +1,43 @@
+[
+  {
+    "name": "Navigate the agency and contact on desktop",
+    "sanity": true,
+    "viewport": "desktop",
+    "covers": [
+      "agency navigation",
+      "WhatsApp contact CTA",
+      "portfolio section"
+    ],
+    "description": "Verifies the primary marketing journey exposes the agency sections and working contact CTA.",
+    "steps": [
+      "Open the website",
+      "Navigate to Models from the header",
+      "Activate the Start a Conversation WhatsApp CTA"
+    ],
+    "expected": "The Models section is visible and the WhatsApp CTA targets the agency number 0706 971 4950."
+  },
+  {
+    "name": "Use the casting CTA on mobile",
+    "viewport": "mobile",
+    "covers": ["mobile responsive layout", "casting enquiry CTA"],
+    "description": "Verifies aspiring models can reach the casting enquiry action on a mobile viewport.",
+    "steps": [
+      "Open the website on mobile",
+      "Scroll to the Ready to be seen section",
+      "Activate Apply / Enquire on WhatsApp"
+    ],
+    "expected": "The casting section is readable and the enquiry CTA opens WhatsApp for 0706 971 4950."
+  },
+  {
+    "name": "Reach the agency contact section",
+    "viewport": "desktop",
+    "covers": ["contact information", "telephone link"],
+    "description": "Verifies the agency phone number is visible and usable from the contact section.",
+    "steps": [
+      "Open the website",
+      "Navigate to Contact",
+      "Select the displayed phone number"
+    ],
+    "expected": "The contact section visibly shows 0706 971 4950 and provides a telephone link."
+  }
+]
